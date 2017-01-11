@@ -57,7 +57,7 @@ try:
 		except KeyboardInterrupt:
 			Pysession.close()
 except Exception as e:
-	print '[-] Caught exception: ' + str(e)
+	print '[-] Caught exception:  ' + str(e)
 	try:
 		Pysession.close()
 	except:
